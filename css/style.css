@@ -29,7 +29,7 @@ h4,
 .banner {
   width: 100%;
   height: 600px;
-  background: url("/images/banner-image.png");
+  background: url("../images/banner-image.png");
   margin: 50px auto;
 }
 
@@ -105,7 +105,7 @@ h4,
 }
 
 .party-banner-section {
-  background: url("/images/vectorrr.png");
+  background: url("../images/vectorrr.png");
   height: 600px;
 }
 
@@ -302,7 +302,7 @@ h4,
 }
 
 .holiday-section .bottom-container {
-  background: url("/images/rectangle-2.png");
+  background: url("../images/rectangle-2.png");
   background-position: bottom;
   background-repeat: no-repeat;
   display: flex;
@@ -407,7 +407,7 @@ h4,
   text-align: center;
 }
 .news-latter-section .content .mail-icon {
-  background-image: url("images/group-61.png");
+  background-image: url("../images/group-61.png");
   height: 150px;
   width: 150px;
 }
@@ -507,11 +507,11 @@ footer .content {
 }
 
 .footer-top .footer-item .phone-icon {
-  background: url("/images/call.png");
+  background: url("../images/call.png");
 }
 
 .footer-top .footer-item .web-icon {
-  background: url("/images/website.png");
+  background: url("../images/website.png");
 }
 
 .footer-social {
