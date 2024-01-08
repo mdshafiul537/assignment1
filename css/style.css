@@ -4,10 +4,20 @@
   font-family: "Inter", sans-serif;
 }
 
-.title,
+.title h1,
+.title h2,
+.title h3,
+h4,
 .welcome-title,
-.holiday-title {
-  font-family: "Merriweather";
+.welcome-title h1,
+.welcome-title h2,
+.welcome-title h3,
+.welcome-title h4,
+.holiday-title .holiday-title h1,
+.holiday-title h2,
+.holiday-title h3,
+.holiday-title h4 {
+  font-family: "Merriweather", serif !important;
   font-weight: 900;
 }
 
@@ -31,11 +41,17 @@
   height: 100%;
   background: rgba(0, 0, 0, 0.4);
 }
+
 .title-content {
   width: 50%;
+}
+.title-content h1,
+.title-content h2,
+.title-content h3,
+.title-content h4 {
   text-align: center;
   color: #fff;
-  font-family: "Merriweather";
+  font-family: "Merriweather" !important;
 }
 
 .title-container h1 {
@@ -433,8 +449,8 @@ footer .content {
   align-items: center;
 }
 
-.bb{
-  border-bottom: 1px solid rgba(255, 255, 255, 0.15);;
+.bb {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
 }
 
 .footer-bottom .footer-item {
