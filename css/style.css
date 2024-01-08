@@ -29,7 +29,7 @@ h4,
 .banner {
   width: 100%;
   height: 600px;
-  background: url('/images/banner-image.png');
+  background: url("/images/banner-image.png");
   margin: 50px auto;
 }
 
@@ -105,7 +105,7 @@ h4,
 }
 
 .party-banner-section {
-  background: url('/images/vectorrr.png');
+  background: url("/images/vectorrr.png");
   height: 600px;
 }
 
@@ -192,12 +192,77 @@ h4,
 
 /* New Offer Start*/
 
+.new-offer-section {
+  margin-bottom: 100px;
+  margin-top: 40px;
+}
+
+.new-offer-section .content {
+  flex-direction: column;
+  justify-content: start;
+}
+
 .new-offer-title {
   color: #f00;
-  text-align: center;
+  text-align: left;
   font-size: 24px;
   font-weight: 500;
   text-transform: uppercase;
+  width: 100%;
+  margin-bottom: -245px;
+}
+
+.offer-items {
+  width: 100%;
+  margin-top: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.offer-items .coming-soon,
+.offer-items .year {
+  width: 32%;
+}
+
+.feature-image {
+  border-radius: 200px;
+  border: 15px solid #f00;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 380px;
+  width: 380px;
+}
+
+.year h3 {
+  color: #f00;
+  font-size: 48px;
+  font-weight: 700;
+  margin-top: -100px;
+}
+
+.year p {
+  margin-top: 40px;
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.coming-soon h3 {
+  color: #070211;
+  font-family: "Merriweather", "serif";
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+}
+
+.coming-soon p {
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
 }
 
 .holiday-section .content {
@@ -237,7 +302,7 @@ h4,
 }
 
 .holiday-section .bottom-container {
-  background: url('/images/rectangle-2.png');
+  background: url("/images/rectangle-2.png");
   background-position: bottom;
   background-repeat: no-repeat;
   display: flex;
@@ -342,7 +407,7 @@ h4,
   text-align: center;
 }
 .news-latter-section .content .mail-icon {
-  background-image: url('images/group-61.png');
+  background-image: url("images/group-61.png");
   height: 150px;
   width: 150px;
 }
@@ -442,11 +507,11 @@ footer .content {
 }
 
 .footer-top .footer-item .phone-icon {
-  background: url('/images/call.png');
+  background: url("/images/call.png");
 }
 
 .footer-top .footer-item .web-icon {
-  background: url('/images/website.png');
+  background: url("/images/website.png");
 }
 
 .footer-social {
